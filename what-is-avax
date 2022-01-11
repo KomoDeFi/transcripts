@@ -1,0 +1,283 @@
+this is gonna be a fun video because
+avalanche is such a new protocol that
+one day we might watch this video in the
+future and realize how crazy it was for
+us to explain it so early avalanche
+hardly has any promotional material just
+nerdy documentation and lengthy white
+papers lucky for you that is exactly
+what we are into welcome to whiteboard
+crypto the number one youtube channel
+for crypto education and here we explain
+topics of the cryptocurrency world using
+analogies stories and examples so that
+you can easily understand them in this
+video we are going to explain what the
+avalanche network is what makes it
+different than literally any other
+crypto application i've seen and at the
+end you'll learn the secrets of the avax
+token including exactly why the price
+recently went from sixteen dollars to
+fifty five dollars in two weeks let's
+dig in
+to understand the avalanche network we
+first need an economics lesson about
+their unique proprietary consensus model
+first of all you need to know that the
+consensus model people used for a long
+long time was called practical byzantine
+fault around the 1980s was when this
+thing took off and was essentially a
+computer science algorithm that helped a
+bunch of things come together and make a
+conclusion based on the information that
+they had next up around 2009 we had the
+start of bitcoin which introduced the
+nakamoto era of consensus nakamoto
+created and shared the proof of work
+mechanism which we have an entire video
+about but is in many ways better than
+the old byzantine model finally in 2020
+avalanche launched their avalanche
+consensus model network this thing is
+complicated so i'm going to attempt to
+give you a high level understanding of
+it without upsetting any of their
+engineers now basically the network
+follows proof of stake pretty closely
+but it does have a few unique
+differences first off the avalanche
+model uses a form of sub-sampled voting
+this means that there's a large group of
+people who volunteer to participate in
+the network and get randomly asked to
+check things to put it in their own
+words small random subsets of validators
+are asked whether they think the
+transactions would be accepted or
+rejected after it is initially thought
+to be valid something called network
+gossip happens where the participants
+exchange information back and forth back
+and forth and continue to validate the
+transactions or deny them one of the
+benefits of this is that contrary to
+proof of work and proof of stake
+mechanisms it doesn't matter how many
+nodes there are how many people there
+are in the system consensus will be
+reached within a certain desired time
+frame also due to some technicalities
+this consensus model is actually much
+more difficult to attack unlike bitcoin
+where you would need 51 of all the
+computers to attack the network or
+ethereum 2.0 where you would need 51 of
+all the staked tokens to attack the
+network with avalanche you would need to
+control up to 80 percent of the network
+to perform an attack let's get on to the
+important stuff though this model allows
+for up to 4 500 transactions per second
+per subnet and has a finality clock of
+less than three seconds now we'll
+explain what subnetting is later because
+it is really important but right now you
+just need to know that each subnet can
+process up to 4500 transactions per
+second and if you have a thousand
+subnets well you can do a lot of
+transactions compare this to bitcoin
+with seven transactions a second in an
+hour-long finality and even ethereum
+pales to compare with 15 transactions a
+second and a 10 minute finality before
+we continue the finality of clicking the
+like button is pretty much immediate so
+if you do us a big favor to support our
+hard work on creating these unique high
+value explainer videos it would mean a
+lot to us so now that i've basically
+explained how the avalanche consensus
+model works let's get into the real
+thing where avalanche shines it's
+network infrastructure so first off
+avalanche has one primary network that
+network has actually three built-in
+blockchains with it that's right
+avalanche just isn't one blockchain it
+is at least three but we'll get to that
+in a second so the first blockchain in
+the network is called the x chain this
+is the part specifically for creation
+management and transaction of tokens on
+the network now the engineers would tell
+us in technicality this is actually
+based on a dag which is a unique form of
+a consensus model unlike a blockchain
+but it is out of the scope of this video
+i just thought it would be interesting
+to add that the avalanche team is not
+married to one protocol next up we have
+the c chain so the c chain is
+specifically for smart contracts it is
+actually an exact copy of the ethereum
+virtual machine so that way you can
+instantly copy and paste and start using
+ethereum dapps on the avalanche network
+in my opinion they were very smart with
+this allowing developers to move their
+projects over without doing much work
+this chain also uses something called
+the snowman protocol which i'll talk
+about in a minute so we have the x chain
+for transactions we have the c chain for
+smart contracts next we have the p chain
+or the platform chain and it is
+specifically for management of the
+subnets it also coordinates all the
+validator nodes and the staking
+mechanism now this brings us to a very
+big and very important question what are
+subnets well each subnet is a new
+network in the avalanche ecosystem
+that's right this system is scalable in
+so many ways let me try to explain
+subnets each subnet can have multiple
+blockchains just like the primary
+avalanche network secondly each
+blockchain in a subnet can have its own
+consensus model now from what i've heard
+this means if you're creating one you
+can pick proof of work or proof of stake
+depending on your needs another really
+cool thing is that each blockchain can
+have its own vm or virtual machine you
+can copy the ethereum virtual machine
+just like the primary chain did another
+important thing about these subnets that
+i didn't really understand at first is
+that they can be permissionless or
+permissioned this means that they can
+either be public or private blockchains
+now you might start to understand the
+purpose of this if you are a government
+and you want the full power of a
+blockchain without developing the
+groundwork you can just add a subnet in
+avalanche's ecosystem maybe you're a
+government or maybe you're a business or
+an organization or some other protocol
+needing to use these very powerful tools
+without wanting to actually invest in
+something new in avalanche you can even
+change the rules for each blockchain in
+your network you can make it so that it
+is compliant across many different
+geographic or political requirements for
+example you could say every validator in
+your subnet needs to have a license or
+maybe they need to fill out certain tax
+information avalanche is built to be
+able to create and follow rules like
+that one last important thing that i
+thought i would add is that to validate
+your own subnet you are also
+contributing to the validation of the
+entire network via the primary three
+chains now let's get into something fun
+because moving on from the
+infrastructure let's get into a specific
+detail about the network so the main
+primary network uses the avalanche
+consensus model but ava labs created an
+even more powerful consensus model
+called the snowman protocol and yes just
+to make you understand them let's talk
+about the quick difference between the
+snowman protocol and the generalized
+avalanche protocol because the
+difference is quite small however it is
+powerful so the snowman protocol is the
+linearized version of avalanche so that
+it can fit the needs of the ethereum
+virtual machine basically snowman
+protocol has been optimized for smart
+contracts and high throughput on the
+other hand avalanche is a more general
+use case where it is implemented using a
+dag structure which is also seen on the
+x chain now like i said at the beginning
+a lot of this stuff is really confusing
+so i'm trying my best to explain it so
+that you can understand it you may need
+to watch this video more than once
+summing it all up these were a bunch of
+technical terms but you just need to
+know that the avalanche developers are
+really smart and basically optimize
+things as best they can for the
+situations that they see fit next up
+before we make any price prediction or
+let you in on some very useful
+information let's get into the
+tokenomics of the avax coin which powers
+the network first off there is a max cap
+of coins at 720 million this immediately
+makes it a deflationary asset secondly
+avex coins can be used as a governance
+on the platform meaning the more coins
+that you hold and stake you have more
+voting rights and you get to make
+important decisions in the future of the
+network here's the bad news though ava
+labs pre-sold 127 million coins when
+they launched and many of those coins
+are subject to an unlocking period this
+means many investors who bought the coin
+at 50 cents may want to lock in some of
+their 100x profits and sell immediately
+whenever they can now this is bad news
+for investors but the good news is that
+they aren't dumping all of these coins
+at once so here's a picture of their
+unlocking schedule and if you're
+thinking of investing in avax be mindful
+of these dates and how the past dates
+have affected price another thing that's
+worth noting is that the team and the
+foundation were also given around 20 of
+all coins finally what you've been
+waiting for the good news about avax and
+why their price has spiked so much
+recently so the avalanche foundation has
+announced a 180 million dollar incentive
+program to get people to try out their
+network this means they are quite
+literally giving away 180 million
+dollars for free as a form of
+advertising this happens all the time in
+the defy world and it's not a scam the
+incentive program is supposed to bring
+two big players to the network curve
+finance and ave now curve and ave have
+tens of billions of dollars of liquidity
+locked up on networks like ethereum and
+polygon so it was really smart of the
+team to get them to come over to the ava
+network when this initially launched we
+saw the price of avax spike from 15
+to 55 dollars in a few weeks as hungry
+investors started bridging their money
+over using the avax bridge now we will
+never give financial advice on this
+channel and we'll probably never do
+price predictions but this is a very
+bullish signal for anyone interested in
+the avax network finally we want to say
+thank you guys so much for watching
+throughout this video we hope that
+you've enjoyed it we really hope that
+you've learned something and most of all
+you
