@@ -1,0 +1,255 @@
+good morning comedians in today's video
+we're going to cover how to create a
+block explorer for your komodo smart
+chain
+if you haven't created a smart chain yet
+you can check out the first video in
+this series linked in the description
+and installing the block explorer isn't
+too difficult uh thanks to the work done
+we'll just uh
+use this simple repository
+follow the steps from the readme and it
+really should only take us about 10
+minutes
+so the first thing we want to do is to
+stop our smart chain
+i'm using the rock smart chain that i
+created in the last tutorial
+the reason we're stopping the smart
+chain is because as we run through the
+installation of the block explorer uh
+some parameters in the conf file will be
+changed
+and we'll need to restart the chain with
+a ring index so that those additional
+parameters will take effect so once
+we've stopped the smart chain
+we'll just
+clone that repository
+onto our server
+and enter the folder that it's in
+and we've got a very simple script here
+which will grab all the dependencies and
+set up everything that we need to run
+the explorer so again just a simple copy
+paste
+the setup explorer directory shell
+script
+we'll have to enter our sudo password so
+that we can open the correct ports and
+and this will take two or three minutes
+so chance to go grab yourself a coffee
+pat the dog
+once that's finished you'll see that
+there's a subdirectory called node
+modules
+that has installed all the dependencies
+and the next shell script
+will give it a parameter that is the
+name of our smart chain
+it will detect our conf file
+modified accordingly
+and prepare our chain for usage on the
+explorer
+so before we run this one we'll just
+have a quick look at the existing conf
+file as we set it up in tutorial one
+and you can see there we've got our rpc
+user password port a few other bits and
+pieces and we added the pub key and add
+node to the bottom and now we'll run
+that
+install asset chain explorer script
+and once that's done we'll have another
+look at the conf file to see how it was
+changed so as you can see it's removed
+our pub key and add node
+parameters and it's added a few extra
+ones which allow it to communicate with
+the explorer
+and also a few parameters which
+store more information about the
+blockchain on our local drive now that
+that script has completed
+open up and edit the conf file again so
+that we can re-add our pub key and add
+node
+and then we'll save and exit that last
+little script created a folder
+specifically for our smart chains
+including a script which will start the
+explorer for us
+and now we are ready to launch
+our smart chain again
+but i won't use the launch script just
+yet i'll just copy the launch string and
+we'll put dash re-index at the end
+and that'll update our chain data with
+the extra information such as the
+address index time stamp index etc
+which is used by the block explorer to
+display more information about what has
+been happening on the chain now if
+you're doing this on an established
+chain that has been running for a while
+a re-index might take some time
+but because i only just created this
+smart chain a couple of days ago
+the re-index should complete
+in less than a minute
+next we'll have a look at the rock web
+access file
+which tells us where we need to go to
+have a look at the explorer and you can
+see there that's the ip address of the
+server that i'm using and the port that
+has been assigned for the explorer and
+now that we have that we will launch the
+explorer with the rock dash explorer
+start script
+there we go so we can copy that url from
+the web access file
+head back to our browser
+enter it in
+and there you go we've got a block
+explorer by default the block explorer
+will reference komodo
+all over the place
+so there is a little bit of extra
+customization to be done
+i'll show you a couple of simple
+customizations to begin with
+but you can go much further with
+customized css
+to change the color of elements
+and any other creative changes that you
+may have in mind the files you need to
+tweak in order to implement some
+customization are under your chain
+explorer node modules
+insight dash ui komodo public folder
+first one we'll have a look at is in the
+javascript
+so you can see we have a main.js and a
+main.min.js
+the explorer will use the minified file
+so i'll just open that up unfortunately
+this file is all squashed together so
+it's not really nicely readable for
+humans
+but one thing that we can do is
+and we've got a few
+minifier and unminifier tools you can
+just search for online
+just copy it in there hit unminify and
+you can see it's all nicely laid out for
+and we can copy that again
+head back to our editor
+so you can see at the top here we have
+the net symbol variable which is set to
+kmd at the moment and that is used as
+the default currency
+which is why when we have a look on the
+explorer page we have kmd at the top
+here and we also have it after any
+amounts that have been transacted
+so i'm just going to change that to my
+and i'll save that file
+and now if we
+exit and restart
+see now that everything is counted in
+rock
+the next thing you might want to change
+is the logo at the top here
+and it's named
+logo.png
+and if we open that up at the moment
+we'll see the old komodo logo there so
+i'm just going to copy one that i
+created myself
+and overwrite that one and again once
+we've updated that file
+we can stop and restart
+refresh our page
+and now my logo is in effect you might
+also want to change things like the
+background or text color
+and all of that is defined within the
+css files
+which we can find
+in the public
+and again these are minified files so
+i'll just open up
+main.min.css
+and to make it a little bit easier to
+work with again i'll copy the bit that
+is not a comment
+head on over to a
+unminifier
+hit the unminify button and there we go
+we've got nice beautiful
+human readable css
+and i'll just replace that in that file
+there to find out the name of the
+element you are trying to change most
+modern browsers support something like
+inspect
+and with that we can have a look at the
+code that has created the page
+and if we click on a specific
+element
+it'll highlight down there it'll tell us
+which css styles have influenced the
+color the size the font and so on of
+this element so
+for example here
+see what it looks like or perhaps i want
+get the hex value down the bottom there
+and it tells me that this is defined in
+main.min.css file and it also tells me
+which selector within that file will
+need to be edited any edits that we've
+just done while we're in this identify
+view they'll not persist if i was to
+reload the page again
+it'll go back to default this is just a
+handy little tool that we can test
+things out with
+see what maybe a different uh background
+color would look like and and how the
+contrast goes against the text
+but if we actually want to make that
+change permanent we'll have to change it
+in that main dot min dot css file so for
+example now if i want to change the main
+background
+to something a bit darker and copy that
+you can see it's the body selector that
+i'm looking for so head back to my
+main.css file
+so we can see the body selector here
+although that doesn't have a background
+color declaration
+so we might just have to have a look
+further into the css file and there we
+go
+we see that we
+update it with our value save the file
+stop the explorer
+restart it
+and you can see that now that change is
+permanent
+and from here it's just a matter of
+rinse and repeat
+update the elements that you want to
+change
+and once you're happy you'll have
+a fully functional
+customized
+block explorer and that brings us to the
+end of this tutorial in the next
+tutorial of this series we'll show you
+how to set up an electrum server before
+we can list our new coin
+on atomic decks desktop
