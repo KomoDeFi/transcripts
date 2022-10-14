@@ -1,0 +1,182 @@
+```
+how is everybody  so I'm here to speak about
+decentralization  and why it matters  web free promises us a
+decentralized  future where we the consumer can own  parts of the
+network we participate in  with this ownership we're told comes
+democratize access participation  influence and opportunity  why then
+does Jack Dorsey  write on Twitter you don't own web3 the  Venture
+capitalists and their limited  partners do it will never Escape their
+incentives it's ultimately a centralized  entity with a different
+label know what  you're getting into  consider Bitcoin  the most well-
+known Fair launch  blockchain protocol it had no Ico no  pre-mine no
+VC company backing and no  Founders funds  when pressed by one of
+address and  Horowitz Partners to embrace chains  other than Bitcoin
+Jack replied saying  it's critical we focus our energy on  truly
+secure and resilient Technologies  owned by the massive people not
+individuals or institutions only that  foundation will provide for the
+applications you allude to  remember this as we'll come back to it  in
+a bit  though a large part of the mining power  that Provisions the
+Bitcoin blockchain  has become centralized the nature of its  Origins
+differentiate it from chains  like ethereum Solana cardano Avalanche
+polka dot Etc in the eyes of regulators  who it seems just now
+starting to play  their cards  blockchains like these that are not
+fair  Lawns create a power of symmetry between  the early funders and
+the rest of the  users these imbalances can lead to  manipulation
+manipulation of the network  and so upsets and undermines the promise
+we began with and now takes us back to a  place where centralized
+Powers control  the network  so why does this matter and why should
+we care you might ask history has shown  that when an individual or
+group of  individuals has the opportunity to act  in their own self-
+interest it's usually  a matter of time before they do imagine  being
+a Russian citizen right now your  government has decided to go to war
+you may or may not agree with this  decision regardless you and your
+fellow  citizens have been cut off from global  banking services
+including the majority  of online transactions  well let's look
+further east the Chinese  social credit system rates people of  China
+on a range of metrics Financial  Credit worthiness judicial
+enforcement  commercial transaction trustworthiness  societal
+trustworthiness and government  Integrity by gathering and sharing
+data  curating blacklists and red list and  administering punishments
+sanctions and  Rewards  should your beliefs or values differ  from
+those of the current governments or  leading representative your
+ability to  travel gain employment access Finance or  enter into
+contracts could all be  affected potentially leading you to  being
+marginalized from society  nfts  nfts are said to give users the
+ability  to own objects which can be art photos  codes music texts
+game objects  credentials government rights access  passes or whatever
+else people dream up  nfts exist on top of blockchains like  ethereum
+and almost all apps use either  inferior or Alchemy to interact with
+these blockchains in fact even when you  connect a wallet like
+metamask to an app  it interacts  with the blockchain Via these two
+apps  neither the DAP nor your wallet actually  verifies the
+blockchain state or the  authenticity of the responses the  results
+aren't even signed so you can  later validate them  so essentially
+what's happening is the  app asks hey what's the output of this  view
+function on this smart contract and  then Alchemy or inferior responds
+with  an output  that the app then renders  furthermore metamask
+reuses the same  connections for all your accounts in  your wallet so
+if you're managing  multiple accounts in a wallet to  maintain some
+kind of identity  separation these companies know they're  linked
+unfortunately a wallet has to run on a  mobile device or in a browser
+but  ethereum and most other blockchains have  not been designed to
+interact with a  mobile device or your browser  so there's all this
+work that's gone  into creating Fancy blockchains with  trustless
+distributed consensus  mechanisms but virtually all clients  access it
+simply by trusting the outputs  of these two companies without any
+further verification  imagine if every time you interacted  with a
+website on Google Chrome your  request first went to Google before
+being routed to the destination and back  it doesn't seem like the
+best privacy  solution yeah that's exactly what  happens with ethereum
+today  all right traffic is obviously public  on the blockchain but
+these companies  also have this ability to almost all  read requests
+from almost all users in  almost all dabs most people when they  think
+of nfts they think of images and  digital art but nfts generally don't
+store the data on chain it would be way  too expensive instead most
+nfts contain  a URL that points to the data was pretty  shocking to
+learn about nft standards is  that there's no hash commitment for the
+data located at the URL this means that  for many of the nfts on
+popular  marketplaces  being sold for a hundred thousand  sometimes
+millions of dollars the URL  just points to a virtual private server
+somewhere running Apache anyone with  access to that machine anyone
+who buys a  domain name in the future or anyone who  compromises that
+machine can change the  image title description or other  information
+for the nft to whatever  they'd like at any time regardless of
+whether they own the token or not  there's nothing in the nft spec
+that  tells you what the image should be or  even allows you to
+confirm what the  correct image is  furthermore on the subject of
+decentralization openc have the  Providence to remove any nft or
+listing  they believe violates their terms of  service suffice to say
+if your nft is  removed from openc it also disappears  from your
+wallet it doesn't functionally  matter that your nft is indelibly on
+the  blockchain somewhere because your wallet  and increasingly
+everything else in the  ecosystem is just using the openc API to
+display nfts  it does seem that most participants  either don't know
+or don't particularly  care that these Dynamics are at Play  it seems
+to have little negatively felt  effect on the velocity of the
+ecosystem  expanding this might seem that  decentralization is not
+actually of  immediate practical or pressing  importance to the
+majority of crypto  users or nft buyers what they actually  care about
+is where the money is or put  another way number goes up  so what's
+the solution  imagine a worldwide Network as scalable  and it's
+accessible as today's internet  capable of processing Financial
+transactions in dollars Euros Bitcoin  ethereum or even custom
+currencies or  Auto rebalancing multi-condary baskets  and ensures all
+currencies are accounted  for flawlessly  it facilitates the complete
+Safety and  Security of value the verification of  all real world
+actions and the ability  for people to present a verifiable
+reflection of the sum of their lifetime  experiences it facilitates
+Equity of  opportunity for all where kindness can  be exchanged
+without fear of fraud or  humiliation and enables the values votes
+and voices of a community to be  immutably expressed and secured by
+that  community  all data is verified private protected  and provable
+enabling exchanges of  self-evident truths and all exchanges  can be
+certified smart and secured  without the need for to rely on costly
+intermediaries  the network is available to all to all  as our state-
+of-the-art tours and is  designed such that it can be cheaply and
+easily secured on personal computers on  mobile phones  this protocol
+is called Veris which  means truth  the lead Dev was one of 22
+technical  fellows in the history of Microsoft  their highest ranking
+uh Engineers was  responsible for writing the kernel for  Windows 95
+architecting and founding.net  Microsoft's virtual machine and Java
+among other Technologies still being  used to this day  he designed
+Varys as a solution to the  valence surveillance State we saw
+emerging in the U.S and elsewhere  various public blockchain or pbass
+sorry public blockchain as a service  enables anyone to create their
+own fully  fractal interoperable cross-chain  blockchains or tokens
+without the need  for technical programming ability  think of how much
+money you could save  not needing costly smart contracts uh  smart
+contractors or audits so these  blockchains are endowed with  self-
+sovereign IDs the ability to create  and control digital identities
+that  correlate with real life activities like  loans kyc reputation
+scores voting Etc  full privacy capabilities through ZK  snarks and
+zero knowledge proofs a free  free Marketplace so you can trade nfts
+or any other data without paying any  middlemen totally peer-to-peer
+full  cross chain compatibility with root  cryptographically secure
+bridges on both  sides so uh for example the metadata for  your nfts
+travels with them and you  avoid things like smart contract risk  and
+buggy Bridges  uh G5 and automated market makers this  is all at the
+protocol level designed to  eliminate smart contract risk front  money
+Mev so it's fair and safe for all  participants they have a proof of
+power  consensus mechanism which is 50 proof of  stake 50 proof of
+work  not only does this provide incredible  security but it's also
+designed to be  accessible to everyone uh it's Asic  resistant because
+it's optimized for  CPUs so it can be run on a mobile phone  or a home
+computer  it's also very energy efficient which  again allows it to be
+run on a mobile  phone  um and there's no lookup periods for the
+staking portion of the mechanism so so  Quantum ready for when the
+quantum  threat or quantum computers come online  so in short varus's
+Fair launched layer  zero protocol that eliminates the smart  contract
+vulnerabilities that cost  change like ethereum binance smart chain
+that we just heard about Solana Phantom  polygon and Avalanche
+cumulatively  billions of dollars in hacks each year  by integrating
+smart transactions into  the blockchain protocol layer so a  different
+approach to Smart contracts  Ferris ensures that every d5lp exchange
+transaction token launch blockchain  launch cross-chain transaction
+Etc is as  secure as a standard provable coin to  coin transfer  in
+today's world free digital services  mean you the user are the
+products  your data is being harvested and sold to  advertisers the
+state is also attracted  to governments looking to extract value  from
+its populations and with the  exponential rise of artificial
+intelligence and machine learning the  data gets further processed
+stored and  shared as this data becomes co-mingled  with a person's
+biometric data  interacting with the virtual reality or  the metaverse
+is literally like  strapping yourself into the Matrix  remember what
+Jack Dorsey said earlier  in the speech it's critical we focus our
+energy on truly secure and resilient  Technologies owned by the mass
+of people  not individual not individuals or  institutions only that
+foundation will  provide for the applications you allude  to  varus is
+a solution that brings about  truly decentralized blockchain
+technology and enables people to own  their own data and decide where
+and how  it is shared this includes the ability  to prove that data
+whether it's an  identity a financial transaction or  otherwise
+independent of governments  Banks or other intermediaries  just
+finishing out I want to live in a  world where people's human rights
+are  just as relevant in the digital space as  they are anywhere else
+and all human  beings can enjoy freedom of thought  movement Justice
+and Liberty join me in  bringing about and realizing the Utopia  of
+web3 I'll be around if anyone wants  to learn more you can join the
+discords  there's 15 000 people currently in it  and this is the real
+deal you can build  your own blockchain uh your own tokens  basically
+at near free with  state-of-the-art tools thanks very much  pretty
+good  [Music]
+```
